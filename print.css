@@ -1,0 +1,30 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  color: #333;
+  background-color: #fff;
+}
+
+@page {
+  margin: 1cm;
+  size: A4;
+  counter-increment: page;
+  content: "Page " counter(page);
+}
+
+.navbar {
+  display: none;
+}
+
+.left-sidebar {
+  display: none;
+}
+
+.right-sidebar {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+}
